@@ -1,0 +1,4 @@
+libvtk7-qt-dev: shlib-without-versioned-soname
+libvtk7-qt-dev: package-name-doesnt-match-sonames
+libvtk7-qt-dev: hardening-no-relro
+

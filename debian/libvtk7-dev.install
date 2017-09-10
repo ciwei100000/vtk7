@@ -1,0 +1,23 @@
+# add doxygen docs
+# to get paraview debian/build properly on top of vtk we now add this as a symlink 
+# in the python3-vtk7 package 
+# /usr/lib/*/python3.5/site-packages/vtk/*
+CMake/TopologicalSort.cmake usr/lib/cmake/vtk-7.1/
+CMake/vtkGroups.cmake usr/lib/cmake/vtk-7.1/
+CMake/vtkTesting*.cmake	usr/lib/cmake/vtk-7.1/
+Common/DataModel/vtkMarchingCubesTriangleCases.h usr/include/vtk-7.1/
+Filters/Statistics/vtkStatisticsAlgorithmPrivate.h usr/include/vtk-7.1/
+IO/Import/vtk3DS.h usr/include/vtk-7.1/
+Testing/Core/vtkTestDriver.h usr/include/vtk-7.1
+Testing/Core/vtkTestUtilities.h usr/include/vtk-7.1/
+Testing/Core/vtkTesting*.h usr/include/vtk-7.1
+Testing/Rendering/vtkRegressionTestImage.h usr/include/vtk-7.1/
+Testing/Rendering/vtkTesting*.h usr/include/vtk-7.1
+Wrapping/Java/JavaDependencies.cmake.in usr/lib/cmake/vtk-7.1/
+debian/build/ThirdParty/netcdf/vtk_netcdf.h usr/include/vtk-7.1/
+debian/build/ThirdParty/netcdf/vtk_netcdfcpp.h usr/include/vtk-7.1/
+debian/build/lib/cmake/vtk-7.1/Modules/*-Headers.cmake	usr/lib/cmake/vtk-7.1/Modules/
+usr/include/vtk-7.1                    usr/include
+usr/lib/*/*.so
+usr/lib/cmake/vtk-7.1
+usr/share/doc/vtk-7.1/doxygen/* /usr/share/vtk-7.1/doxygen/

@@ -1,0 +1,4 @@
+# Upstream does not provide manpages
+python3-vtk7: binary-without-manpage
+python3-vtk7: binary-or-shlib-defines-rpath
+python3-vtk7: hardening-no-relro

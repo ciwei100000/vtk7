@@ -1,0 +1,5 @@
+libvtk7.1: package-name-doesnt-match-sonames
+libvtk7.1: hardening-no-relro
+# Will be discussed with upstream to have an opportunity to set USE_SYSTEM_lib
+
+libvtk7.1: embedded-library

@@ -1,0 +1,3 @@
+usr/bin/vtkParseJava-7.1                    usr/bin
+usr/bin/vtkWrapJava-7.1                     usr/bin
+usr/lib/*/vtk7.jar                          usr/share/java

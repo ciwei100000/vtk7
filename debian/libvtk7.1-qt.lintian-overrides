@@ -1,0 +1,3 @@
+libvtk7.1-qt: hardening-no-relro
+libvtk7.1-qt: package-name-doesnt-match-sonames
+
