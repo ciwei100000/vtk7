@@ -50,7 +50,7 @@ License: Sandia-2004
 Files: Examples/GUI/Qt/Events/GUI4.cxx
 Copyright: 2004 Sandia Corporation, 
  Ken Martin, Will Schroeder, Bill Lorensen
-Licence: Sandia-2004 and BSD-3-clause
+License: Sandia-2004+BSD-3-clause
  Sandia-2004: Redistribution and use in source and binary forms, with
  or without modification, are permitted provided that this Notice and any
  statement of authorship are reproduced on all copies.
