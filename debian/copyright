@@ -90,10 +90,7 @@ Files: Infovis/Layout/vtkCosmicTreeLayoutStrategy.h
 Copyright: 2005-2008 Sandia Corporation, Kitware Inc.
  Sandia National Laboratories, New Mexico PO Box 5800 Albuquerque, NM 87185
  Kitware Inc., 28 Corporate Drive, Clifton Park, NY 12065, USA
-License: Sandia-Kitware-2008
- Redistribution and use in source and binary forms, with or without 
- modification, are permitted provided that this Notice and any
- statement of authorship are reproduced on all copies.
+License: BSD-3-clause
 
 Files: Common/Core/CaseFolding.txt
 Copyright: 1991-2008 Unicode, Inc.
