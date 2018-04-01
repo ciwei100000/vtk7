@@ -230,8 +230,8 @@ Files: Utilities/MetaIO/vtkmetaio/metaFEMObject.*
 Copyright: Insight Software Consortium
 License: Apache-2
 
-Files: VTK-7.1.1/Common/Core/vtkMersenneTwister_Private.cxx
- VTK-7.1.1/Common/Core/vtkMersenneTwister.h
+Files: Common/Core/vtkMersenneTwister_Private.cxx
+ Common/Core/vtkMersenneTwister.h
 Copyright: (C) 2001-2009 Makoto Matsumoto and Takuji Nishimura.
  (C) 2009 Mutsuo Saito
 License: BSD-2-clause
