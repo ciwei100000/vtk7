@@ -4,7 +4,6 @@ Uploaders: Anton Gladky <gladk@debian.org>,
            Gert Wollny <gewo@debian.org>,
            Nico Schlömer <nico.schloemer@gmail.com>
 Section: graphics
-Testsuite: autopkgtest
 Priority: optional
 Build-Depends: chrpath,
                cmake (>= 3.2.0),
