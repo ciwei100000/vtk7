@@ -1,5 +1,5 @@
 Description: Drop some examples, which require Qt
- It is neccessary for the fixing of arm-compilation
+ It is necessary for the fixing of arm-compilation
  where Qt is not available
 Author: Anton Gladky <gladk@debian.org>
 Bug-Debian: https://bugs.debian.org/793304
