@@ -3,4 +3,4 @@ vtk7 (7.1.1+dfsg1-1~exp2) experimental; urgency=medium
   * Initial release. (Closes: #810254)
     Thanks: Nico Schloemer for initial work and python3 packaging
 
- -- Gert Wollny <gewo@debian.org>  Sat, 01 Apr 2018 21:00:44 +0000
+ -- Gert Wollny <gewo@debian.org>  Sun, 01 Apr 2018 21:00:44 +0000
