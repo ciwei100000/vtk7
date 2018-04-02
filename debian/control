@@ -150,8 +150,6 @@ Depends: libvtk7-dev (= ${binary:Version}),
          qttools5-private-dev,
          libqt5opengl5-dev,
          libqt5webkit5-dev
-Breaks: libvtk7-dev (<< 6.3.0+dfsg1)
-Replaces: libvtk7-dev (<< 6.3.0+dfsg1)
 Description: VTK header files, containing Qt files
  The Visualization Toolkit (VTK) is an open-source software system
  for 3D computer graphics, image processing, and visualization.
@@ -182,8 +180,6 @@ Architecture: any
 Section: libs
 Depends: ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libvtk7.2 (<< 6.2.0+dfsg1-1)
-Replaces: libvtk7.2 (<< 6.2.0+dfsg1-1)
 Description: VTK libraries, Qt files
  The Visualization Toolkit (VTK) is an open-source software system
  for 3D computer graphics, image processing, and visualization.

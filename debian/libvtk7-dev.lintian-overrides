@@ -1,4 +1,1 @@
-libvtk7-dev: shlib-without-versioned-soname
-libvtk7-dev: package-name-doesnt-match-sonames
 libvtk7-dev: postinst-must-call-ldconfig
-libvtk7-dev: hardening-no-relro
