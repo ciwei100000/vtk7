@@ -14,3 +14,4 @@
 99-hdf5-1.10-compatibility
 107_gl2ps_1.4.0.patch
 108_Doxygen-use-mathjax.patch
+109_java-jar-nonjavafiles.patch
