@@ -1,0 +1,13 @@
+Author: Gert Wollny <gewo@debian.org>
+Description: When on ARM act like on android, use gles instead of glew
+--- a/ThirdParty/glew/vtk_glew.h.in
++++ b/ThirdParty/glew/vtk_glew.h.in
+@@ -32,7 +32,7 @@
+ 
+ #define VTK_OPENGL_ES_VERSION @OPENGL_ES_VERSION_INT@
+ 
+-#ifdef ANDROID
++#if defined(ANDROID) || defined(__arm__)
+ # if VTK_OPENGL_ES_VERSION == 20
+ #  include <GLES2/gl2.h>
+ # else

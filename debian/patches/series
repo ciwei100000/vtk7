@@ -15,3 +15,4 @@
 107_gl2ps_1.4.0.patch
 108_Doxygen-use-mathjax.patch
 109_java-jar-nonjavafiles.patch
+fix_glew_on_arm.patch
