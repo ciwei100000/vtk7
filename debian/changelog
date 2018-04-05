@@ -1,3 +1,10 @@
+vtk7 (7.1.1+dfsg1-1~exp3) experimental; urgency=medium
+
+  * [3c45e93] d/p/fix_glew: Add patch to fix conflict between 
+    glew and gles on arm
+
+ -- Gert Wollny <gewo@debian.org>  Thu, 05 Apr 2018 18:55:21 +0200
+
 vtk7 (7.1.1+dfsg1-1~exp2) experimental; urgency=medium
 
   * Initial release. (Closes: #810254)
