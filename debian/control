@@ -5,7 +5,8 @@ Uploaders: Anton Gladky <gladk@debian.org>,
            Nico Schlömer <nico.schloemer@gmail.com>
 Section: graphics
 Priority: optional
-Build-Depends: chrpath,
+Build-Depends: armhf-armel-not-supported [armhf armel],
+               chrpath,
                cmake (>= 3.2.0),
                debhelper (>= 9),
                default-jdk,
