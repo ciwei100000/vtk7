@@ -1,3 +1,10 @@
+vtk7 (7.1.1+dfsg1-1~exp4) UNRELEASED; urgency=medium
+
+  * [32f2e3c] d/control: Disable build on armel and armhf
+  * [de17b61] d/python3-vtk7.install: Also install helpers
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 08 Apr 2018 20:14:40 +0200
+
 vtk7 (7.1.1+dfsg1-1~exp3) experimental; urgency=medium
 
   * [3c45e93] d/p/fix_glew: Add patch to fix conflict between 
