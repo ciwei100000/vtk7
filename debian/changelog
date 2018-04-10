@@ -1,4 +1,4 @@
-vtk7 (7.1.1+dfsg1-1~exp4) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg1-1~exp4) experimental; urgency=medium
 
   * [32f2e3c] d/control: Disable build on armel and armhf
   * [de17b61] d/python3-vtk7.install: Also install helpers
