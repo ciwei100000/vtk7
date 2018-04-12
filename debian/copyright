@@ -1,6 +1,6 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: http://www.vtk.org/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Visualization Toolkit
+Source: http://www.vtk.org/
 Files-Excluded:
   Web/*
   Examples/GUI/Win32
@@ -34,7 +34,7 @@ Copyright: 1993-2015 Ken Martin, Will Schroeder, Bill Lorensen
 License: BSD-3-clause
 
 Files: Accelerators/Dax/*
-Copyright: 2012 Sandia Corporation, Kitware Inc., 
+Copyright: 2012 Sandia Corporation, Kitware Inc.,
                 University of California Davis
 License: BSD-3-clause
 
@@ -48,7 +48,7 @@ License: Sandia-2004
  statement of authorship are reproduced on all copies.
 
 Files: Examples/GUI/Qt/Events/GUI4.cxx
-Copyright: 2004 Sandia Corporation, 
+Copyright: 2004 Sandia Corporation,
  Ken Martin, Will Schroeder, Bill Lorensen
 License: Sandia-2004+BSD-3-clause
  Sandia-2004: Redistribution and use in source and binary forms, with
@@ -149,7 +149,7 @@ License: BSD-like
    California, Sun Microsystems, Inc., Scriptics Corporation,
    and other parties.  The following terms apply to all files associated
    with the software unless explicitly disclaimed in individual files.
-   .
+ .
    The authors hereby grant permission to use, copy, modify, distribute,
    and license this software and its documentation for any purpose, provided
    that existing copyright notices are retained in all copies and that this
@@ -159,20 +159,20 @@ License: BSD-like
    and need not follow the licensing terms described here, provided that
    the new terms are clearly indicated on the first page of each file where
    they apply.
-   .
+ .
    IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
    FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
    ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
    DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
    POSSIBILITY OF SUCH DAMAGE.
-   .
+ .
    THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
    INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
    FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE
    IS PROVIDED ON AN "AS IS" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE
    NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
    MODIFICATIONS.
-   .
+ .
    GOVERNMENT USE: If you are acquiring this software on behalf of the
    U.S. government, the Government shall have only "Restricted Rights"
    in the software and related documentation as defined in the Federal
@@ -184,10 +184,6 @@ License: BSD-like
    authors grant the U.S. Government and others acting in its behalf
    permission to use and distribute the software in accordance with the
    terms specified in this license.
-
-Files: ThirdParty/ftgl/*
-Copyright: 2001-2 Henry Maddocks
-License: MIT
 
 Files: ThirdParty/exodusII/*
 Copyright: 2005 Sandia Corporation.
@@ -264,28 +260,28 @@ License: Apache-2-modified
   The color schemes below are copyright under the following license, excerpted
   from http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_updates.html
   on August 13, 2012:
-  .
+ .
     Apache-Style Software License for ColorBrewer software and
     ColorBrewer Color Schemes
-  .
+ .
     Copyright (c) 2002 Cynthia Brewer, Mark Harrower, and The Pennsylvania
     State University.
-  .
+ .
     Licensed under the Apache License, Version 2.0 (the "License"); you may not
     use this file except in compliance with the License.
     You may obtain a copy of the License at
-  .
+ .
     http://www.apache.org/licenses/LICENSE-2.0
-  .
+ .
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
     WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     License for the specific language governing permissions and limitations
     under the License.
-  .
+ .
   This text from my earlier Apache License Version 1.1 also remains in place for
   guidance on attribution and permissions:
-  .
+ .
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
     1. Redistributions as source code must retain the above copyright notice,
@@ -303,7 +299,7 @@ License: Apache-2-modified
        may "ColorBrewer" appear in their name, without prior written permission
        of Cynthia Brewer.
 
-Files:  Filters/Parallel/vtkBlockDistribution.h
+Files: Filters/Parallel/vtkBlockDistribution.h
         Infovis/Parallel/vtkPBGLConnectedComponents.cxx
         Infovis/Parallel/Testing/Cxx/*
         Infovis/Parallel/*
@@ -314,21 +310,21 @@ Files:  Filters/Parallel/vtkBlockDistribution.h
 Copyright: 2008 The Trustees of Indiana University
 License: Boost-1.0
   Boost Software License - Version 1.0 - August 17th, 2003
-  .
+ .
   Permission is hereby granted, free of charge, to any person or organization
   obtaining a copy of the software and accompanying documentation covered by
   this license (the "Software") to use, reproduce, display, distribute,
   execute, and transmit the Software, and to prepare derivative works of the
   Software, and to permit third-parties to whom the Software is furnished to
   do so, all subject to the following:
-  .
+ .
   The copyright notices in the Software and this entire statement, including
   the above license grant, this restriction and the following disclaimer,
   must be included in all copies of the Software, in whole or in part, and
   all derivative works of the Software, unless such copies or derivative
   works are solely in the form of machine-executable object code generated by
   a source language processor.
-  .
+ .
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
   FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
@@ -378,23 +374,28 @@ License: BSD-3-clause-diy2
  into other computer software, distribute, and sublicense such enhancements or
  derivative works thereof, in binary and source code form.
 
+License: Apache-2
+ On Debian systems, the full text of the Apache License
+ Version 2.0 can be found in the file
+ `/usr/share/common-licenses/Apache-2.0'.
+
 License: BSD-3-clause
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
    met:
-   .
+ .
        * Redistributions of source code must retain the above copyright
          notice, this list of conditions and the following disclaimer.
-   .
+ .
        * Redistributions in binary form must reproduce the above
          copyright notice, this list of conditions and the following
          disclaimer in the documentation and/or other materials provided
          with the distribution.
-   .
+ .
        * Neither the name of Sandia Corporation nor the names of its
          contributors may be used to endorse or promote products derived
          from this software without specific prior written permission.
-   .
+ .
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -407,7 +408,7 @@ License: BSD-3-clause
    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-License: MIT
+License: Expat
  ** Permission is hereby granted, free of charge, to any person obtaining
  ** a copy of this software and associated documentation files (the
  ** "Software"), to deal in the Software without restriction, including
@@ -426,8 +427,3 @@ License: MIT
  ** CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
  ** TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  ** SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-License: Apache-2
- On Debian systems, the full text of the Apache License
- Version 2.0 can be found in the file
- `/usr/share/common-licenses/Apache-2.0'.

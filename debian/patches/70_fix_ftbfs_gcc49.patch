@@ -1,9 +1,8 @@
 Description: fix compilation with gcc-4.9
-Author: Anton Gladky <gladk@debian.org>
-Bug-Debian: http://bugs.debian.org/746923
+Bug-Debian: https://bugs.debian.org/746923
 Forwarded: https://github.com/Kitware/VTK/pull/7
+Author: Anton Gladky <gladk@debian.org>
 Last-Update: 2014-05-30
-
 --- a/Filters/ParallelMPI/vtkDistributedDataFilter.cxx
 +++ b/Filters/ParallelMPI/vtkDistributedDataFilter.cxx
 @@ -1113,7 +1113,10 @@

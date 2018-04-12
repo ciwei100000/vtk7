@@ -1,8 +1,7 @@
 Description: Use system sqlite
+Bug-Debian: https://bugs.debian.org/750183
 Author: Anton Gladky <gladk@debian.org>
-Bug-Debian: http://bugs.debian.org/750183
 Last-Update: 2014-06-03
-
 --- a/IO/SQL/vtkSQLiteDatabase.cxx
 +++ b/IO/SQL/vtkSQLiteDatabase.cxx
 @@ -29,7 +29,7 @@

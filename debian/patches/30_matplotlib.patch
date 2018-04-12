@@ -1,3 +1,4 @@
+Description: _matplotlib
 --- a/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.h
 +++ b/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.h
 @@ -156,6 +156,10 @@

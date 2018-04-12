@@ -1,7 +1,6 @@
 Description: The H5FD_class_t struct gained an extra member in 1.10
+Bug-Debian: https://bugs.debian.org/846372
 Author: Iain Lane <iain.lane@canonical.com>
-Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=846372
-
 --- a/ThirdParty/xdmf2/vtkxdmf2/libsrc/XdmfH5Driver.cxx
 +++ b/ThirdParty/xdmf2/vtkxdmf2/libsrc/XdmfH5Driver.cxx
 @@ -139,7 +139,11 @@

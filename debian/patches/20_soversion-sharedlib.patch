@@ -1,3 +1,4 @@
+Description: _soversion sharedlib
 --- a/CMake/vtkModuleMacros.cmake
 +++ b/CMake/vtkModuleMacros.cmake
 @@ -417,8 +417,8 @@

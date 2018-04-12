@@ -11,12 +11,11 @@ Description: <short summary of the patch>
    * Revert back to libtiff4-dev and use libtiff-dev in d/control. Closes: #674998
    * Fix tkInt.h installation, using proper cmake magic. Closes: #674169
    * Make sure to discover init.tcl properly. Closes: #673245
+Bug-Debian: https://bugs.debian.org/656115
+Bug-Debian: https://bugs.debian.org/673245
+Bug-Debian: https://bugs.debian.org/674169
+Bug-Debian: https://bugs.debian.org/674998
 Author: Mathieu Malaterre <malat@debian.org>
-Bug-Debian: http://bugs.debian.org/656115
-Bug-Debian: http://bugs.debian.org/673245
-Bug-Debian: http://bugs.debian.org/674169
-Bug-Debian: http://bugs.debian.org/674998
-
 ---
 The information above should follow the Patch Tagging Guidelines, please
 checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
