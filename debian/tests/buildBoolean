@@ -15,7 +15,7 @@ cd src
 cat <<EOF > CMakeLists.txt
 cmake_minimum_required(VERSION 2.6)
 project(demo)
-find_package(VTK REQUIRED vtkCommonCore vtkIOImage vtkIOXML vtkRenderingOpenGL  vtkIOLegacy)
+find_package(VTK REQUIRED vtkCommonCore vtkIOImage vtkIOXML vtkRenderingOpenGL2  vtkIOLegacy)
 include(\${VTK_USE_FILE})
 
 add_executable(demo demo.cpp)
