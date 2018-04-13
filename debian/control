@@ -1,7 +1,6 @@
 Source: vtk7
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-Uploaders: Anton Gladky <gladk@debian.org>,
-           Gert Wollny <gewo@debian.org>,
+Uploaders: Gert Wollny <gewo@debian.org>,
            Nico Schlömer <nico.schloemer@gmail.com>
 Section: graphics
 Priority: optional
