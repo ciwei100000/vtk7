@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-2) unstable; urgency=medium
+
+  * d/control: Add depenency on libglew-dev to -dev package
+
+ -- Gert Wollny <gewo@debian.org>  Fri, 13 Apr 2018 12:15:49 +0200
+
 vtk7 (7.1.1+dfsg1-1) unstable; urgency=medium
 
   * upload to unstable
