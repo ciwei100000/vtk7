@@ -1,3 +1,10 @@
+vtk7 (7.1.1+dfsg1-3) unstable; urgency=medium
+
+  * Update autopkgtst to OpenGL2 interface
+  * d/control: Remove Andy from uploaders
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 15 Apr 2018 16:37:32 +0200
+
 vtk7 (7.1.1+dfsg1-2) unstable; urgency=medium
 
   * d/control: Add depenency on libglew-dev to -dev package
