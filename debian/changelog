@@ -1,4 +1,4 @@
-vtk7 (7.1.1+dfsg1-4) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg1-4) unstable; urgency=medium
 
   * d/control:build-dep on libqt5opengl5-desktop-dev Closes: #896100
   * d/rules: remove hard-coded MIP include path
