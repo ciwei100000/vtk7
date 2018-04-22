@@ -4,8 +4,7 @@ Uploaders: Gert Wollny <gewo@debian.org>,
            Nico Schlömer <nico.schloemer@gmail.com>
 Section: graphics
 Priority: optional
-Build-Depends: armhf-armel-not-supported [armhf armel],
-               chrpath,
+Build-Depends: chrpath,
                cmake (>= 3.2.0),
                debhelper (>= 9),
                default-jdk,
@@ -39,7 +38,7 @@ Build-Depends: armhf-armel-not-supported [armhf armel],
                libpng-dev,
                libpq-dev,
                libproj-dev,
-               libqt5opengl5-dev,
+               libqt5opengl5-desktop-dev,
                libqt5webkit5-dev,
                libqt5x11extras5-dev,
                libsqlite3-dev,
@@ -149,7 +148,7 @@ Depends: libvtk7-dev (= ${binary:Version}),
          ${shlibs:Depends},
          qtbase5-dev,
          qttools5-private-dev,
-         libqt5opengl5-dev,
+         libqt5opengl5-desktop-dev,
          libqt5webkit5-dev
 Description: VTK header files, containing Qt files
  The Visualization Toolkit (VTK) is an open-source software system
