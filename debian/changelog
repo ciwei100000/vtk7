@@ -2,6 +2,7 @@ vtk7 (7.1.1+dfsg1-5~exp1) experimental; urgency=medium
 
   * d/rules: remove python3.5 symlink, Closes: #906181
   * d/control: Depend only on the default python3 version
+  * d/control: remove obsolete x-python3-version tag
   * Upload to experimental because of python3-ubjson
 
  -- Gert Wollny <gewo@debian.org>  Sun, 26 Aug 2018 19:25:46 +0200
