@@ -1,6 +1,7 @@
 vtk7 (7.1.1+dfsg1-5) unstable; urgency=medium
 
   * d/rules: remove python3.5 symlink, Closes: #906181
+  * d/control: Depend only on the default python3 version
 
  -- Gert Wollny <gewo@debian.org>  Sun, 26 Aug 2018 19:25:46 +0200
 
