@@ -124,6 +124,3 @@ override_dh_install-arch:
 	find $(CURDIR)/debian/libvtk7-dev/usr/include/ -name "Q*" -exec rm {} \;
 	chmod 755 $(CURDIR)/debian/libvtk7-dev/usr/share/vtk-7.1/doxygen/*.pl
 	rm -rf $(CURDIR)/debian/libvtk7-doc/usr/share/doc/vtk7-doc/html/_formulas.log
-	mkdir -p  $(CURDIR)/debian/python3-vtk7/usr/lib/$(DEB_HOST_MULTIARCH)/python3.5/site-packages/ && \
-          cd $(CURDIR)/debian/python3-vtk7/usr/lib/$(DEB_HOST_MULTIARCH)/python3.5/site-packages/ && \
-	  ln -s  /usr/lib/python3.5/dist-packages/vtk vtk
