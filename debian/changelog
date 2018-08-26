@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-5) unstable; urgency=medium
+
+  * d/rules: remove python3.5 symlink, Closes: #906181
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 26 Aug 2018 19:25:46 +0200
+
 vtk7 (7.1.1+dfsg1-4) unstable; urgency=medium
 
   * d/control:build-dep on libqt5opengl5-desktop-dev Closes: #896100
