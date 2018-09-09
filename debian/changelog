@@ -1,3 +1,11 @@
+vtk7 (7.1.1+dfsg1-5) unstable; urgency=medium
+
+  * cmd fix dpkg   
+    - Update standards to 4.2.1 (no changes)
+    - remove expat license text from d/copyright
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 09 Sep 2018 14:13:06 +0200
+
 vtk7 (7.1.1+dfsg1-5~exp1) experimental; urgency=medium
 
   * d/rules: remove python3.5 symlink, Closes: #906181
