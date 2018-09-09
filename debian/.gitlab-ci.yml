@@ -1,0 +1,15 @@
+image: debian:sid
+
+build:
+  stage: build
+  before_script:
+    - apt-get update && apt-get -y install devscripts git-buildpackage 
+    - mk-build-deps --tool "apt -y -o Debug::pkgProblemResolver=yes --no-install-recommends" --install -r debian/control 
+  script:
+    - git checkout pristine-tar 
+    - git pull 
+    - git checkout master 
+    - git pull 
+    # silence build to not exceed build log size of gitlab-ci
+    - gbp buildpackage -uc -us 2>&1 >../build.log && exit 0 || tail -n 100 ../build.log  && exit -1
+
