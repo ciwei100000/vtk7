@@ -38,9 +38,9 @@ Build-Depends: chrpath,
                libpng-dev,
                libpq-dev,
                libproj-dev,
-               libqt5opengl5-desktop-dev,
-               libqt5webkit5-dev,
-               libqt5x11extras5-dev,
+               libqt5opengl5-desktop-dev [!armhf !armel],
+               libqt5webkit5-dev  [!armhf !armel],
+               libqt5x11extras5-dev  [!armhf !armel],
                libsqlite3-dev,
                libswscale-dev,
                libtheora-dev,
@@ -58,8 +58,8 @@ Build-Depends: chrpath,
                python3-mpi4py,
                python3-six,
                python3-twisted,
-               qtbase5-dev,
-               qttools5-private-dev,
+               qtbase5-dev  [!armhf !armel],
+               qttools5-private-dev  [!armhf !armel],
                r-base,
                r-base-core,
                r-base-dev,
@@ -139,7 +139,7 @@ Description: VTK header files
  C++ programs that use VTK to do 3D visualisation.
 
 Package: libvtk7-qt-dev
-Architecture: any
+Architecture: amd64 arm64 i386 mips mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-* ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
 Section: libdevel
 Depends: libvtk7-dev (= ${binary:Version}),
          libvtk7.1-qt (= ${binary:Version}),
@@ -175,7 +175,7 @@ Description: VTK libraries
  that use VTK.
 
 Package: libvtk7.1-qt
-Architecture: any
+Architecture: amd64 arm64 i386 mips mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-* ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
 Section: libs
 Depends: ${misc:Depends},
          ${shlibs:Depends}

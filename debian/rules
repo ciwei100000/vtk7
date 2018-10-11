@@ -14,6 +14,14 @@ else
         JAVA_VERSION=1.8
 endif
 
+noqt_archs=armhf armel 
+ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH), $(noqt_archs)))
+        QTLIBS=OFF
+else
+        QTLIBS=ON
+endif
+
+
 # export JAVA_HOME to help FindJava.cmake and FindJNI.cmake
 export JAVA_HOME=/usr/lib/jvm/default-java
 
@@ -73,10 +81,10 @@ extra_flags +=  \
 	-DVTK_USE_GCC_VISIBILITY=ON \
 	-DModule_vtkRenderingExternal=ON
 
-extra_flags += -DVTK_QT_VERSION=5	-DVTK_Group_Qt=ON
+extra_flags += -DVTK_QT_VERSION=5	-DVTK_Group_Qt=$(QTLIBS)
 
 override_dh_auto_configure:
-ifneq (,$(filter $(DEB_HOST_ARCH),$(noqt_archs)))
+ifeq (,$(filter $(DEB_HOST_ARCH),$(noqt_archs)))
 	echo '' > $(CURDIR)/Views/Qt/module.cmake
 	echo '' > $(CURDIR)/GUISupport/QtWebkit/module.cmake
 	echo '' > $(CURDIR)/Rendering/Qt/module.cmake
@@ -118,9 +126,11 @@ override_dh_auto_install:
 
 override_dh_install-arch:
 	dh_install -a
+ifneq (,$(filter $(DEB_HOST_ARCH),$(noqt_archs)))
 	find $(CURDIR)/debian/libvtk7-dev/ -name "*Qt*" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7.1/ -name "*Qt*" -exec rm {} \;
-	find $(CURDIR)/debian/libvtk7-dev/ -name "libvtkRenderingPythonTkWidgets.so" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7-dev/usr/include/ -name "Q*" -exec rm {} \;
+endif
+	find $(CURDIR)/debian/libvtk7-dev/ -name "libvtkRenderingPythonTkWidgets.so" -exec rm {} \;
 	chmod 755 $(CURDIR)/debian/libvtk7-dev/usr/share/vtk-7.1/doxygen/*.pl
 	rm -rf $(CURDIR)/debian/libvtk7-doc/usr/share/doc/vtk7-doc/html/_formulas.log
