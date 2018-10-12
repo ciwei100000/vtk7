@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-6) UNRELEASED; urgency=medium
+
+  * d/*: don't build QT packages on armel,armhf
+
+ -- Gert Wollny <gewo@debian.org>  Fri, 12 Oct 2018 07:35:02 +0200
+
 vtk7 (7.1.1+dfsg1-5) unstable; urgency=medium
 
   * cmd fix dpkg   
