@@ -16,9 +16,14 @@ endif
 
 noqt_archs=armhf armel 
 ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH), $(noqt_archs)))
-        QTLIBS=OFF
+        extra_flags=-DVTK_Group_Qt=OFF \
+                    -DMODULE_vtkParseOGLExt=ON  \
+                    -DModule_vtkWrappingTools=ON \
+                    -DModule_vtkRenderingSceneGraph=ON \
+                    -DModule_vtkIOExportOpenGL2=ON \
+                    -DModule_vtkPython=ON
 else
-        QTLIBS=ON
+        extra_flags += -DVTK_QT_VERSION=5 -DVTK_Group_Qt=ON
 endif
 
 
@@ -70,7 +75,7 @@ extra_flags +=  \
 	-DVTK_Group_MPI=ON \
 	-DVTK_Group_Tk=ON \
 	-DVTK_Group_Views=ON \
-	-DVTK_BUILD_ALL_MODULES=ON \
+	-DVTK_BUILD_ALL_MODULES=$(QTLIBS) \
 	-DVTK_INSTALL_LIBRARY_DIR="/usr/lib/$(DEB_HOST_MULTIARCH)" \
 	-DVTK_INSTALL_PYTHON_MODULE_DIR="/usr/lib/python3/dist-packages" \
 	-DVTK_MAKE_INSTANTIATORS=ON \
@@ -81,7 +86,6 @@ extra_flags +=  \
 	-DVTK_USE_GCC_VISIBILITY=ON \
 	-DModule_vtkRenderingExternal=ON
 
-extra_flags += -DVTK_QT_VERSION=5	-DVTK_Group_Qt=$(QTLIBS)
 
 override_dh_auto_configure:
 ifeq (,$(filter $(DEB_HOST_ARCH),$(noqt_archs)))
