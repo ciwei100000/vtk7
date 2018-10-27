@@ -1,8 +1,12 @@
-vtk7 (7.1.1+dfsg1-6) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg1-6~exp1) experimental; urgency=medium
 
-  * d/*: don't build QT packages on armel,armhf
+  * d/*: don't build QT packages on armel,armhf and disables 
+         some things around it
+  * d/vtk7.install: don't install the OglExtension parser, this 
+         seems to relate to the disabled OpenGL render backend and
+         not to the new OpenGL2 backend 
 
- -- Gert Wollny <gewo@debian.org>  Fri, 12 Oct 2018 07:35:02 +0200
+ -- Gert Wollny <gewo@debian.org>  Sat, 27 Oct 2018 11:45:02 +0200
 
 vtk7 (7.1.1+dfsg1-5) unstable; urgency=medium
 
