@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-6) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 28 Oct 2018 09:09:12 +0100
+
 vtk7 (7.1.1+dfsg1-6~exp1) experimental; urgency=medium
 
   * d/*: don't build QT packages on armel,armhf and disables 
