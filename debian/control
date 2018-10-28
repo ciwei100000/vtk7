@@ -225,7 +225,7 @@ Package: python3-vtk7
 Architecture: any
 Section: python
 Depends: libvtk7.1 (= ${binary:Version}),
-         libvtk7.1-qt (= ${binary:Version}),
+         libvtk7.1-qt (= ${binary:Version}) [!armhf !armel],
          python3-autobahn,
          python3-mpi4py,
          python3-six,
