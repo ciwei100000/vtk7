@@ -1,6 +1,12 @@
+vtk7 (7.1.1+dfsg1-8) unstable; urgency=medium
+
+  * d/control: Remove QT deps from vtk-tcl on armhf/armel
+
+ -- Gert Wollny <gewo@debian.org>  Mon, 29 Oct 2018 07:09:14 +0100
+
 vtk7 (7.1.1+dfsg1-7) unstable; urgency=medium
 
-  * d/control: Remove python3-vtk dependncy on QT on armhf armel
+  * d/control: Remove python3-vtk deps on QT on armhf armel
 
  -- Gert Wollny <gewo@debian.org>  Sun, 28 Oct 2018 19:16:48 +0100
 
