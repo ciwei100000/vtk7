@@ -249,7 +249,7 @@ Package: tcl-vtk7
 Architecture: any
 Section: interpreters
 Depends: libvtk7.1 (= ${binary:Version}),
-         libvtk7.1-qt (= ${binary:Version}),
+         libvtk7.1-qt (= ${binary:Version}) [!armhf !armel],
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: vtk7-doc,
