@@ -139,7 +139,7 @@ Description: VTK header files
  C++ programs that use VTK to do 3D visualisation.
 
 Package: libvtk7-qt-dev
-Architecture: amd64 arm64 i386 mips mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-i386 kfreebsd-amd64  ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
+Architecture: amd64 arm64 i386 mips mipsel mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-i386 kfreebsd-amd64  ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
 Section: libdevel
 Depends: libvtk7-dev (= ${binary:Version}),
          libvtk7.1-qt (= ${binary:Version}),
@@ -175,7 +175,7 @@ Description: VTK libraries
  that use VTK.
 
 Package: libvtk7.1-qt
-Architecture: amd64 arm64 i386 mips mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-i386 kfreebsd-amd64 ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
+Architecture: amd64 arm64 i386 mips mipsel mips64el ppc64el s390x alpha hppa hurd-i386 powerpc kfreebsd-i386 kfreebsd-amd64 ia64 m68k powerpcspe ppc64 riscv64  sh4  sparc64  x32
 Section: libs
 Depends: ${misc:Depends},
          ${shlibs:Depends}
