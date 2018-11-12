@@ -1,3 +1,10 @@
+vtk7 (7.1.1+dfsg1-9) unstable; urgency=medium
+
+  * d/control: Add mipsel to build archs for *-qt packages, 
+    Closes: #913459
+
+ -- Gert Wollny <gewo@debian.org>  Mon, 12 Nov 2018 17:48:00 +0100
+
 vtk7 (7.1.1+dfsg1-8) unstable; urgency=medium
 
   * d/control: Remove QT deps from vtk-tcl on armhf/armel
