@@ -21,9 +21,12 @@ ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH), $(noqt_archs)))
                     -DModule_vtkWrappingTools=ON \
                     -DModule_vtkRenderingSceneGraph=ON \
                     -DModule_vtkIOExportOpenGL2=ON \
-                    -DModule_vtkPython=ON
+                    -DModule_vtkPython=ON \
+                    -DVTK_BUILD_ALL_MODULES=OFF
 else
-        extra_flags += -DVTK_QT_VERSION=5 -DVTK_Group_Qt=ON
+        extra_flags += -DVTK_QT_VERSION=5 \
+                       -DVTK_Group_Qt=ON \
+                       -DVTK_BUILD_ALL_MODULES=ON
 endif
 
 
@@ -75,7 +78,6 @@ extra_flags +=  \
 	-DVTK_Group_MPI=ON \
 	-DVTK_Group_Tk=ON \
 	-DVTK_Group_Views=ON \
-	-DVTK_BUILD_ALL_MODULES=$(QTLIBS) \
 	-DVTK_INSTALL_LIBRARY_DIR="/usr/lib/$(DEB_HOST_MULTIARCH)" \
 	-DVTK_INSTALL_PYTHON_MODULE_DIR="/usr/lib/python3/dist-packages" \
 	-DVTK_MAKE_INSTANTIATORS=ON \
