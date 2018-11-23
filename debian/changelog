@@ -1,9 +1,10 @@
-vtk7 (7.1.1+dfsg1-10) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg1-10) unstable; urgency=medium
 
   * d/rules: Correctly set BuildAllModules, Closes: #911793
   * d/p/110: fix build with python 3.7.1, Closes:  #914347
+  * d/p/111: Correct shebangs and add patch description
 
- -- Gert Wollny <gewo@debian.org>  Fri, 23 Nov 2018 14:58:07 +0100
+ -- Gert Wollny <gewo@debian.org>  Fri, 23 Nov 2018 21:02:42 +0100
 
 vtk7 (7.1.1+dfsg1-9) unstable; urgency=medium
 
