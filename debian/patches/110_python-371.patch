@@ -1,3 +1,6 @@
+Author: Gert Wollny <gewo@debian.org>
+Description: Work around compile bug with python 3.7.1
+Debian-Bug: https://bugs.debian.org/914347
 diff --git a/Wrapping/PythonCore/vtkPythonArgs.cxx b/Wrapping/PythonCore/vtkPythonArgs.cxx
 index 1b1e4b9..682f8b8 100644
 --- a/Wrapping/PythonCore/vtkPythonArgs.cxx

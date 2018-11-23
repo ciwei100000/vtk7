@@ -16,3 +16,4 @@
 108_Doxygen-use-mathjax.patch
 109_java-jar-nonjavafiles.patch
 110_python-371.patch
+111_fix_perl.patch
