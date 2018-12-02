@@ -1,3 +1,11 @@
+vtk7 (7.1.1+dfsg1-11~exp1) experimental; urgency=medium
+
+  * d/control, rules: re-enable qt on armel/armhf, Closes: #915054
+  * d/rules: Add -ffloat-store to buildflags on i386, 
+    hopefully helps to fix #914817
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 02 Dec 2018 19:08:36 +0100
+
 vtk7 (7.1.1+dfsg1-10) unstable; urgency=medium
 
   * d/rules: Correctly set BuildAllModules, Closes: #911793
