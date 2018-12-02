@@ -14,7 +14,7 @@ else
         JAVA_VERSION=1.8
 endif
 
-noqt_archs=armhf armel 
+noqt_archs="" 
 ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH), $(noqt_archs)))
         extra_flags=-DVTK_Group_Qt=OFF \
                     -DMODULE_vtkParseOGLExt=ON  \
