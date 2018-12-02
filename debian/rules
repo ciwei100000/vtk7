@@ -8,6 +8,12 @@ else
   BUILDDOC = ON
 endif
 
+ifeq ($(DEB_BUILD_ARCH),i386)
+  # Tests are permanently failing, try force rounding to normal double 
+  # accuracy
+  export DEB_CXXFLAGS_MAINT_APPEND=-ffloat-store
+endif 
+
 ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH),hppa hurd-i386))
         JAVA_VERSION=1.5
 else
