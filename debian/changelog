@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-11) unstable; urgency=medium
+
+  * Re-upload to unstable
+
+ -- Gert Wollny <gewo@debian.org>  Tue, 04 Dec 2018 23:34:23 +0100
+
 vtk7 (7.1.1+dfsg1-11~exp1) experimental; urgency=medium
 
   * d/control, rules: re-enable qt on armel/armhf, Closes: #915054
