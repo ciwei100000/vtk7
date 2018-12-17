@@ -1,3 +1,12 @@
+vtk7 (7.1.1+dfsg1-12) UNRELEASED; urgency=medium
+
+  * Let libvtk7-qt-dev depend on libqt5opengl5-dev rather than on
+    libqt5opengl5-desktop-dev, as it was done for the build-dep.
+    This fixes the dependency on arm{el,hf} which have OpenGL ES.
+    Closes: #915779.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 17 Dec 2018 09:37:48 +0100
+
 vtk7 (7.1.1+dfsg1-11) unstable; urgency=medium
 
   * Re-upload to unstable
