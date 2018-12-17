@@ -1,4 +1,4 @@
-vtk7 (7.1.1+dfsg1-12) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg1-12) unstable; urgency=medium
 
   * Let libvtk7-qt-dev depend on libqt5opengl5-dev rather than on
     libqt5opengl5-desktop-dev, as it was done for the build-dep.
