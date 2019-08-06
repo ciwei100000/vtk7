@@ -11,7 +11,6 @@ Files-Excluded:
   ThirdParty/gl2ps/vtkgl2ps
   ThirdParty/hdf5/vtkhdf5
   ThirdParty/jpeg/vtkjpeg
-  ThirdParty/libproj4/vtklibproj4
   ThirdParty/jsoncpp/vtkjsoncpp
   ThirdParty/libxml2/vtklibxml2
   ThirdParty/netcdf/vtknetcdf
@@ -32,6 +31,10 @@ Files-Excluded:
 Files: *
 Copyright: 1993-2015 Ken Martin, Will Schroeder, Bill Lorensen
 License: BSD-3-clause
+
+Files: ThirdParty/libproj4/*
+Copyright: 2003, 2006   Gerald I. Evenden
+License: MIT
 
 Files: Accelerators/Dax/*
 Copyright: 2012 Sandia Corporation, Kitware Inc.,
