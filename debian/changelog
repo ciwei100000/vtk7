@@ -1,3 +1,15 @@
+vtk7 (7.1.1+dfsg2-1) UNRELEASED; urgency=medium
+
+  [ Nico Schlömer ]
+  * update broken debian/watch
+
+  [ Gert Wollny ]
+  * d/*: switch back to use bundled proj4, Closes: #931044
+  * d/watch: Restrict to v7
+  * New upstream version 7.1.1+dfsg2
+
+ -- Gert Wollny <gewo@debian.org>  Tue, 06 Aug 2019 22:01:09 +0200
+
 vtk7 (7.1.1+dfsg1-12) unstable; urgency=medium
 
   [ Emilio Pozuelo Monfort ]
