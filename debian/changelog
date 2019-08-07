@@ -6,9 +6,12 @@ vtk7 (7.1.1+dfsg2-1) UNRELEASED; urgency=medium
   [ Gert Wollny ]
   * d/*: switch back to use bundled proj4, Closes: #931044
   * d/watch: Restrict to v7
-  * New upstream version 7.1.1+dfsg2
+  * Update tarball to contain proj4 
+  * d/p/112: Add support for riscv64, Closes: #924611
+  * d/libvtk-jni: install to /usr/lib/jni (Java Policy 2.4), 
+    Closes: #930512
 
- -- Gert Wollny <gewo@debian.org>  Tue, 06 Aug 2019 22:01:09 +0200
+ -- Gert Wollny <gewo@debian.org>  Wed, 07 Aug 2019 08:05:28 +0200
 
 vtk7 (7.1.1+dfsg1-12) unstable; urgency=medium
 
