@@ -10,8 +10,9 @@ vtk7 (7.1.1+dfsg2-1) UNRELEASED; urgency=medium
   * d/p/112: Add support for riscv64, Closes: #924611
   * d/libvtk-jni: install to /usr/lib/jni (Java Policy 2.4), 
     Closes: #930512
+  * d/*: Change soname because of using embedded libproj4
 
- -- Gert Wollny <gewo@debian.org>  Wed, 07 Aug 2019 08:05:28 +0200
+ -- Gert Wollny <gewo@debian.org>  Sun, 25 Aug 2019 22:15:51 +0200
 
 vtk7 (7.1.1+dfsg1-12) unstable; urgency=medium
 
