@@ -109,7 +109,7 @@ Depends: default-libmysqlclient-dev,
          libswscale-dev,
          libtheora-dev,
          libtiff-dev,
-         libvtk7.1 (= ${binary:Version}),
+         libvtk7.1p (= ${binary:Version}),
          libvtk7-java (= ${binary:Version}),
          libx11-dev,
          libxft-dev,
@@ -142,7 +142,7 @@ Package: libvtk7-qt-dev
 Architecture: any
 Section: libdevel
 Depends: libvtk7-dev (= ${binary:Version}),
-         libvtk7.1-qt (= ${binary:Version}),
+         libvtk7.1p-qt (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
          qtbase5-dev,
@@ -156,7 +156,7 @@ Description: VTK header files, containing Qt files
  This package provides the VTK header files required to compile
  C++ programs that use VTK to do 3D visualisation. Qt files
 
-Package: libvtk7.1
+Package: libvtk7.1p
 Architecture: any
 Section: libs
 Depends: ${misc:Depends},
@@ -174,7 +174,7 @@ Description: VTK libraries
  This package provides the shared libraries needed to run C++ programs
  that use VTK.
 
-Package: libvtk7.1-qt
+Package: libvtk7.1p-qt
 Architecture: any
 Section: libs
 Depends: ${misc:Depends},
@@ -224,8 +224,8 @@ Description: Visualization Toolkit - A high level 3D visualization library - jav
 Package: python3-vtk7
 Architecture: any
 Section: python
-Depends: libvtk7.1 (= ${binary:Version}),
-         libvtk7.1-qt (= ${binary:Version}) [!armhf !armel],
+Depends: libvtk7.1p (= ${binary:Version}),
+         libvtk7.1p-qt (= ${binary:Version}) [!armhf !armel],
          python3-autobahn,
          python3-mpi4py,
          python3-six,
@@ -248,8 +248,8 @@ Description: Python bindings for VTK
 Package: tcl-vtk7
 Architecture: any
 Section: interpreters
-Depends: libvtk7.1 (= ${binary:Version}),
-         libvtk7.1-qt (= ${binary:Version}) [!armhf !armel],
+Depends: libvtk7.1p (= ${binary:Version}),
+         libvtk7.1p-qt (= ${binary:Version}) [!armhf !armel],
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: vtk7-doc,
@@ -264,7 +264,7 @@ Description: Tcl bindings for VTK
 Package: vtk7
 Architecture: any
 Section: interpreters
-Depends: libvtk7.1 (= ${binary:Version}),
+Depends: libvtk7.1p (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: vtk7-doc,

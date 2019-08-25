@@ -139,7 +139,7 @@ override_dh_auto_install:
 override_dh_install-arch:
 	dh_install -a
 	find $(CURDIR)/debian/libvtk7-dev/ -name "*Qt*" -exec rm {} \;
-	find $(CURDIR)/debian/libvtk7.1/ -name "*Qt*" -exec rm {} \;
+	find $(CURDIR)/debian/libvtk7.1p/ -name "*Qt*" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7-dev/usr/include/ -name "Q*" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7-dev/ -name "libvtkRenderingPythonTkWidgets.so" -exec rm {} \;
 	chmod 755 $(CURDIR)/debian/libvtk7-dev/usr/share/vtk-7.1/doxygen/*.pl
