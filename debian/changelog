@@ -1,4 +1,4 @@
-vtk7 (7.1.1+dfsg2-1) UNRELEASED; urgency=medium
+vtk7 (7.1.1+dfsg2-1~exp1) experimental; urgency=medium
 
   [ Nico Schlömer ]
   * update broken debian/watch
