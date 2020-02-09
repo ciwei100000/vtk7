@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg2-2) unstable; urgency=medium
+
+  * d/libvtk7-jni: Install into correct libdir, Closes: #950027
+
+ -- Gert Wollny <gewo@debian.org>  Sun, 09 Feb 2020 16:52:05 +0100
+
 vtk7 (7.1.1+dfsg2-1) unstable; urgency=medium
 
   * Upload to unstable, Closes:  #931944 
