@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-12+c1) unstable; urgency=medium
+
+  * Addressed the issues that causes cmake FindVTK fails
+
+ -- ciwei100000 <ciwei100000@gmail.com>  Tue, 25 Feb 2020 04:23:09 -0800
+
 vtk7 (7.1.1+dfsg1-12) unstable; urgency=medium
 
   [ Emilio Pozuelo Monfort ]
