@@ -237,7 +237,8 @@ Depends: libvtk7.1 (= ${binary:Version}),
 Suggests: mayavi2,
           vtk7-doc,
           vtk7-examples
-Breaks: python3-vtk6
+Breaks: python3-vtk6,
+        python-vtk6
 Replaces: python3-vtk6
 Description: Python bindings for VTK
  The Visualization Toolkit (VTK) is an open-source software system
@@ -269,6 +270,8 @@ Depends: libvtk7.1 (= ${binary:Version}),
          ${shlibs:Depends}
 Suggests: vtk7-doc,
           vtk7-examples
+Breaks: vtk6
+Replaces: vtk6
 Description: Binaries for VTK7
  The Visualization Toolkit (VTK) is an open-source software system
  for 3D computer graphics, image processing, and visualization.

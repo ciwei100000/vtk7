@@ -1,3 +1,6 @@
+debian/build/bin/pvtk		 usr/bin
+debian/build/bin/pvtkpython	 usr/bin
+debian/build/bin/vtk7python	 usr/bin
 usr/lib/python3/dist-packages
 usr/bin/vtkWrapPython-7.*
 usr/bin/vtkWrapPythonInit-7.*

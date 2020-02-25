@@ -131,7 +131,7 @@ override_dh_auto_install:
 	chrpath -d $(CURDIR)/debian/build/bin/vtk7python
 	chrpath -d $(CURDIR)/debian/build/bin/pvtk
 	chrpath -d $(CURDIR)/debian/build/bin/pvtkpython
-	mv $(CURDIR)/debian/tmp/usr/bin/vtk $(CURDIR)/debian/tmp/usr/bin/vtk7
+	#mv $(CURDIR)/debian/tmp/usr/bin/vtk $(CURDIR)/debian/tmp/usr/bin/vtk7
 	find $(CURDIR)/debian/tmp/ -name "*.pyc" | xargs rm -f
 	find $(CURDIR)/debian/tmp/ -name "*.pyo" | xargs rm -f
 	sed -i -e "9 a\ append libPath /${DEB_HOST_MULTIARCH}" $(CURDIR)/debian/tmp/usr/lib/tcltk/vtk-7.1/pkgIndex.tcl
@@ -141,6 +141,6 @@ override_dh_install-arch:
 	find $(CURDIR)/debian/libvtk7-dev/ -name "*Qt*" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7.1/ -name "*Qt*" -exec rm {} \;
 	find $(CURDIR)/debian/libvtk7-dev/usr/include/ -name "Q*" -exec rm {} \;
-	find $(CURDIR)/debian/libvtk7-dev/ -name "libvtkRenderingPythonTkWidgets.so" -exec rm {} \;
+	#find $(CURDIR)/debian/libvtk7-dev/ -name "libvtkRenderingPythonTkWidgets.so" -exec rm {} \;
 	chmod 755 $(CURDIR)/debian/libvtk7-dev/usr/share/vtk-7.1/doxygen/*.pl
 	rm -rf $(CURDIR)/debian/libvtk7-doc/usr/share/doc/vtk7-doc/html/_formulas.log
