@@ -1,3 +1,9 @@
+vtk7 (7.1.1+dfsg1-12+c2) experimental; urgency=medium
+
+  * Fixed cmake path and update dependency
+
+ -- ciwei100000 <ciwei100000@gmail.com>  Sun, 05 Jul 2020 17:21:16 -0700
+
 vtk7 (7.1.1+dfsg1-12+c1) unstable; urgency=medium
 
   * Addressed the issues that causes cmake FindVTK fails
